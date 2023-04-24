@@ -1,8 +1,11 @@
 body {
     text-align: center;
+    background: #a2d2ff;
+    font-family: 'Happy Monkey', cursive;
 }
 
 #birthday-img {
+    border: 8px solid #efb0c9;
     border-radius: 50%;
     width: 200px;
 }
@@ -10,5 +13,5 @@ body {
 h1,
 h2,
 h4 {
-    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
 }
