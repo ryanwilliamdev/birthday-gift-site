@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+#birthday-img {
+    border-radius: 100%;
+    width: 200px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Happy Monkey', cursive;
+}
