@@ -16,13 +16,51 @@ p {
     text-shadow: 0 0 1px black;
 }
 
-h2,
-h4 {
-    background: #efb0c9;
-}   
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #birthday-img {
     border: 6px solid #efb0c9;
     border-radius: 50%;
     width: 200px;
+}
+
+#bday-age {
+    margin: 10px 0;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-section {
+   margin: 40px 0 0 0;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
 }
